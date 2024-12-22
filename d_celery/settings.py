@@ -21,7 +21,7 @@ INSTALLED_APPS = [
     # apps 
     'users',
     # libraries
-    'django_celery_results',
+    'django-celery-results',
 ]
 
 MIDDLEWARE = [
