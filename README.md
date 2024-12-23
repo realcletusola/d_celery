@@ -67,10 +67,14 @@ $ redis-server
 ### Starting Celery
 Run the Celery worker:
 ```bash
-$ celery -A your_project_name worker --loglevel=info
-$ celery -A myproject flower (to view task via the browser)
-$ visit http://localhost:5555 to view tasks using flower 
+$ celery -A d_celery worker --loglevel=info
 ```
+### View Tasks in Browser
+Run Flower
+```bash
+$ celery -A d_celery flower 
+```
+Visit http://localhost:5555 to view tasks using flower 
 
 ### Running the Django Server
 ```bash
