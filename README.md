@@ -28,8 +28,8 @@ This project illustrates how to decouple time-consuming tasks like sending email
 
 ### Clone the Repository
 ```bash
-$ git clone https://github.com/your-username/your-repo-name.git
-$ cd your-repo-name
+$ git clone https://github.com/realcletusola/d_celery.git
+$ cd d_celery
 ```
 
 ### Install Dependencies
